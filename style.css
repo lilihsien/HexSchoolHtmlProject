@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+*{
+	outline: 1px solid #000;
+}
+*/
+/*
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+*/
+
+.wrap{
+	width: 1000px;
+}
+
+.header-menu{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.header-menu li .facebook{
+	color: #5c74ab;
+}
+
+.header-menu li .twitter{
+	color: #00aaec;
+}
+
+.header-menu li .separator{
+	color: #00cc99;
+}
+
+.header-menu li a{
+	color: #37523d;
+	text-decoration: none;
+	padding: 0px 5px;
+}
+
+.header-menu li a:hover{
+	color: #00ffa2;
+}
+
+.menu-content{
+	display: flex;
+	justify-content:space-between;
+}
+
+.menu{
+	display: flex;
+	justify-content:space-around;
+	
+}
+
+.menu li{
+	padding: 20px 20px;
+}
+
+.menu li:hover{
+	color: #00ffa2;
+	border-bottom: 2px solid #00cc99; 
+}
+
+.menu li a{
+	color: #00cc99;
+	text-decoration: none;
+}
+/*
+.menu li a:hover{
+	color: #00ffa2;
+	border-bottom: 2px solid #00cc99; 
+}
+*/
+.menu-logo{  
+    max-height: 100%;  
+    max-width: 100%; 
+}
+
+.top-content {
+	position: relative;
+	text-align: center;
+}
+
+.centered {
+	position: absolute;
+	top:30%;
+	text-align: left;
+	/*
+	background:#382d2e;
+	opacity: 0.2;
+	*/
+	background:rgba(22, 18, 18, 0.5);
+	font-size: 35px;
+	width: 100%;
+	height: 160px;
+}
+
+.centered p{
+	padding-top: 40px;
+	color: white;
+}
+/*
+.layer1{
+	width: 875px;
+	display: flex;
+	justify-content:space-around;
+}
+
+.layer2{
+	width: 875px;
+	display: flex;
+	justify-content:space-around;
+}
+
+.layer3{
+	width: 875px;
+	display: flex;
+	justify-content:space-around;
+}
+*/
+
+.main-content{
+	display: flex;
+	justify-content:space-around;
+	padding-top: 85px;
+	padding-left: 35px;
+	padding-right: 35px;
+	text-align: center;
+	margin: auto;
+}
+/*
+.main-content div{
+	width: 260px;
+	padding-bottom: 80px;
+}
+*/
+.main-content ul{
+	width: 260px;
+	padding-bottom: 80px;
+}
+
+.main-content .RWD{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.main-content h1{
+	font-weight:bold;
+}
+
+.main-content p{
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+}
+
+.main-content .html h1{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.main-content .RWD h1{
+	padding-top: 65px;
+	padding-bottom: 10px;
+}
+
+.main-content .jQuery h1{
+	padding-top: 34px;
+	padding-bottom: 10px;
+}
+
+.main-content .linestyle {
+	margin-top: 20px;
+	width: 270px;
+	height: 1px;
+	border-top: solid #d6d6d6 2px;
+}
+
+.table-content h1{
+	text-align: center;
+	font-size: 20px;
+	font-weight:bold;
+	padding-bottom: 30px;
+}
+
+.table-content table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+}
+
+.table-content table td{
+	border-bottom: 1px solid #22b28e;
+	padding: 10px;
+	width: 200px;
+}
+
+.table-content table .highlight{
+	color: #22b28e;
+}
+
+.bottom-content {
+	margin-top: 60px;
+	margin-bottom: 25px;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	background: linear-gradient(#00654c,#009871);
+}
+
+.bottom-content h1{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	padding-bottom: 15px;
+}
+
+.bottom-content .form-content{
+	display: flex;
+	justify-content:space-around;
+	padding-top: 30px;
+	color: white;
+}
+
+.bottom-content .form-content textarea{
+	border-radius:5px;
+}
+
+.bottom-content .form-content input[type="text"]{
+	width: 460px;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-radius:5px;
+}
+
+.bottom-content .form-content input[type="submit"]{
+	float:right;
+	background:#00cc99;
+	width: 70px;
+	height: 35px;
+	border: 0px;
+	border-radius:5px;
+}
+
+.footer{
+	display: flex;
+	justify-content:space-between;
+}
+
+.footer-info h2{
+	padding-bottom: 10px;
+}
+
+.footer-info span{
+	color: #e965a2;
+}
