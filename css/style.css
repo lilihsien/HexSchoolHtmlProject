@@ -102,11 +102,6 @@ table {
 	
 }
 
-.menu li{
-	/*padding: 20px 20px;*/
-	/*height: 30px;*/
-}
-
 .menu li:hover{
 	color: #00ffa2;
 	border-bottom: 2px solid #00cc99;
